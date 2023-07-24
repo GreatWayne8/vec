@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vihiga Education City</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,500;0,900;1,100;1,200;1,300;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo-link"><img src="images/vec.png.png"  class="logo-image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box"><h1>Vihiga Education City</h1>
+        <p>Welcome to <span  class="school-name">Vihiga Education City </span>, School a place where young minds blossom! From kindergarten to junior secondary, we create a joyful and supportive learning environment. <br> Our dedicated teachers inspire curiosity and creativity, nurturing a love for learning in every child. Together, we lay the foundation for a bright future, fostering academic excellence and character development.</p>
+    <a href="" class="hero-btn">Visit Us For More</a>
+    </div>
+    </section>
+
+<!------- Course ------->
+
+<section class="course">
+<h1>Services Offered</h1>
+<p>Kindergarten,
+    Primary and Junior Secondary:</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Kindergarten</h3>
+            <p>Early Literacy,
+                Numeracy,
+                Arts and Crafts,
+                Music and Movement,
+                Social Skills,
+                Nature and Science Exploration,
+                Physical Education.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Primary</h3>
+            <p>Language Arts,
+                Mathematics,
+                Science,
+                Social Studies,
+                Physical Education,
+                Arts and Music,
+                Foreign Languages,
+                Computer Studies.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Junior Secondary</h3>
+            <p>English Language and Literature,
+                Mathematics,
+                Sciences,
+                Social Sciences,
+                Physical Education and Health,
+                Visual and Performing Arts,
+                Technology and Design,
+                Foreign Languages.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="row">
+    <div class="campus-col">
+        <img src="" alt="">
+    </div>
+
+</section>
+
+    <!----- javascript for togle menu ------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200";
+        }
+    </script>
+</body>
+</html>

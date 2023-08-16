@@ -1,104 +1,296 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vihiga Education City</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,500;0,900;1,100;1,200;1,300;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/24b37e47de.js" crossorigin="anonymous"></script>
+</head> 
 <body>
     <section class="header">
         <nav>
-            <a href="index.html" class="logo-link"><img src="images/vec.png.png"  class="logo-image"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">COURSE</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT</a></li>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="#"><img src="images/vec.png.png"></a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">Vihiga Edu. City</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="#home">HOME</a></li>
+                  <li>
+                    <a href="#about">ABOUT</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="#our school">Our School</a></li>
+                      <li><a href="#facilities">Our Facilities</a></li>
+                      <li><a href="#Extracurricular Activity">Extracurricular Activity</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                      <ul class="more-sub-menu sub-menu">
+                        <li><a href="#testimonials1">What Our Students Say</a></li>
+                      <li><a href="#testimonials">What Our Directors Say</a></li>
+                      <li><a href="#achievements">Our Achievements</a></li>
+                      </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#services">GALLERY</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#blog">BLOG</a></li>
+                  <li><a href="#contact">CONTACT US</a></li>
                 </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box"><h1>Vihiga Education City</h1>
-        <p>Welcome to <span  class="school-name">Vihiga Education City </span>, School a place where young minds blossom! From kindergarten to junior secondary, we create a joyful and supportive learning environment. <br> Our dedicated teachers inspire curiosity and creativity, nurturing a love for learning in every child. Together, we lay the foundation for a bright future, fostering academic excellence and character development.</p>
-    <a href="" class="hero-btn">Visit Us For More</a>
+          </nav>
+        <div class="text-box" id="home">
+            
+            <p>Welcome to <span>Vihiga Education City</span>, a place where young minds blossom! From kindergarten to junior secondary, we create a joyful and supportive learning environment. <br> Our dedicated teachers inspire curiosity and creativity, nurturing a love for learning in every child. Together, we lay the foundation for a bright future, fostering academic excellence and character development.</p>
+            <a href="info@vihigaeducationcity.com" class="hero-btn">Visit Us For More</a>
+        </div>
+    </section>
+</body>
+</html>
+<section class="course" >
+    <h1>Services Offered</h1>
+    <p>Baby-care & Kindergarten,
+        Primary and Junior Secondary:</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Baby-care & Kindergarten</h3>
+                <p>Our child-centered approach fosters curiosity and creativity through play-based learning. Our safe and supportive environment, along with strong parent involvement, ensures each child's holistic development.</p>
+            </div>
+            <div class="course-col">
+                <h3>Primary School</h3>
+                <p>We foster academic cellence, creativity, and critical thinking. Our holistic approach nurtures students' social, emotional, and physical growth. Safety, inclusivity, and parent partnership are our priorities.</p>
+            </div>
+            <div class="course-col">
+                <h3>Junior Secondary</h3>
+                <p>Our dynamic curriculum, supportive environment, and qualified educators create an inspiring learning journey for young learners. Embrace challenges and excel with us!</p>
+            </div>
+        </div>
+    
+    </section>
+    
+
+<section class="Kindergarten" id="services">
+<h1 id="our school">Our School</h1>
+<p>Welcome to our school. Where Magic Meets Learning! Join us for a wondrous journey of growth and creativity, fostering a lifelong love for knowledge. Welcome to our world!</p>
+<div class="row">
+    <div class="kindergaten-col">
+        <img src="images/kindergaten.jpg">
+        <div class="layer">
+            <h3>Day-care & Kindergarten</h3>
+        </div>
     </div>
+    <div class="kindergaten-col">
+        <img src="images/primary.jpg">
+        <div class="layer">
+            <h3>Primary School</h3>
+        </div>
+    </div>
+    <div class="kindergaten-col">
+        <img src="images/junior sec.jpg">
+        <div class="layer">
+            <h3>Junior Secondary</h3>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="facilities">
+<h1>Our Facilities</h1>
+<p>We offer cutting-edge facilities to inspire learning and foster growth. From modern classrooms to well-equipped labs and enriching spaces, we provide the perfect environment for your child's education. <br>
+    Come, explore, and embark on an exceptional learning journey with us!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/WhatsApp Image 2023-08-08 at 12.23.41.jpeg">
+            <h3>Spacious and Inviting Playrooms</h3>
+            <p>Our spacious playrooms are designed to encourage creativity, interaction, and exploration. Filled with a variety of age-appropriate toys, educational games, and engaging activities, these environments provide a dynamic setting for children to play, socialize, and develop essential skills.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/play.jpg">
+            <h3>A Hub of Active Engagement</h3>
+            <p>We believe that a well-rounded education extends beyond the classroom walls. Our playing pitches are more than just spaces for physical activity – they are dynamic environments where students cultivate teamwork, enhance physical fitness, and embrace the joy of play.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/red class.jpeg">
+            <h3>Inclusive Learning Spaces</h3>
+            <p>Our commitment to inclusivity is reflected in our specially designed classrooms and resources for students with diverse learning needs. These spaces ensure that every student receives a personalized education that caters to their unique strengths.</p>
+        </div>
+        </div>
+    </div>
+
+</section>
+<section class="facilities" id="facilities">
+<h1>Extracurricular Activities</h1>
+<p>Discover your passions, unlock your potential, and create unforgettable moments with friends who share your interests. </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/kg.jpg">
+            <h3>Artistic Expressions Club:</h3>
+            <p>Unleash imagination through colors, shapes, and crafts. Join today to create, collaborate, and showcase your artistic flair. Nurture creativity from the very beginning – join us and paint your world vibrant!"</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/vec diana.jpg">
+            <h3>Aviation Club:</h3>
+            <p>Explore the world of flight and aviation! Learn about different types of aircraft, aviation history, and even get hands-on experience with flight simulators. This club is perfect for those who dream of soaring through the skies..</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/ukulima.jpeg">
+            <h3>Green Eco-Club:</h3>
+            <p>Join this club to make a positive impact on the environment. Explore sustainable practices, engage in eco-friendly projects, and work towards creating a greener school and community</p>
+        </div>
+        </div>
+    </div>
+
+</section>
+
+<!----- about-us ------>
+
+<section class="about" id="testimonials1">
+    <h1>What Our Students Say</h1>
+    <p>Welcome to our school's testimonial page, where we proudly showcase the voices and experiences of our students. Here, you will find authentic and heartfelt testimonials from the individuals who have been an integral part of our vibrant learning community.</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <div>
+                <p>
+                    "I found a second family here. The support and encouragement I received from both teachers and peers have been invaluable. This school has not only nurtured my academic growth but has also helped me build strong character."
+                     <h3>Corine, Class of 2023</h3>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                </p>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <div>
+                <p>
+                    "The teachers at this school go above and beyond. They make learning enjoyable and interactive, and I never feel afraid to ask questions. They genuinely care about our success." 
+                </p>
+                <h3>Alex, Class of 2023</h3>
+                <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonials" id="testimonials">
+    <h1>What The Directors Say</h1>
+    <p>"Step into the world of Vihiga Education City, where the synergy of education, inspiration, and positive values thrives! As dedicated leaders, our goal is clear: fostering a supportive space that ignites inquisitiveness, nurtures achievement, and fosters a spirit of benevolence. Become a part of our journey to embolden young intellects to reach new heights, innovate ceaselessly, and create a meaningful, positive influence on the globe. Together, we're crafting a brighter tomorrow, rich with wisdom, empathy, and virtue."</p>
+
+       
+        </div>
+    </div>
+</section>
+<section class="Achievements" id="achievement">
+    <h1>Achievements</h1>
+    <p>At VEC, we're proud of the remarkable achievements we've accomplished as a kindergarten, primary, and junior secondary school. Our dedication to academic excellence, STEM advancements, extracurricular prowess, and community impact has shaped well-rounded individuals ready to embrace their future with confidence. Join our journey of success today!</p>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1>GALLERY</h1>
+   <div a target="_blank" href="img_5terre.jpg">
+      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+   </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</section>
+
+<section class="blog" id="blog">
+    <h1>Blog</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Primary Education: Where Curiosity Thrives:</h3>
+                <p>In our Primary Section, young learners embark on a voyage of discovery and growth. At Education-City, we cultivate curiosity, creativity, and essential skills, setting a strong foundation for their academic journey and instilling a lifelong passion for learning.</p>
+            </div>
+            <div class="course-col">
+                <h3>Junior Secondary Education: Nurturing Future Leaders:</h3>
+                <p>The Junior Secondary Section at [School Name] is a bridge to leadership and personal development. With a dynamic curriculum and supportive community, students explore their potential, develop critical thinking, and cultivate values that empower them to thrive in a rapidly changing world.</p>
+            </div>
+            <div class="course-col">
+                <h3>Enroll Today and Shape Tomorrow:</h3>
+                <p>Discover the holistic education at [School Name] that prepares students for a fulfilling future. Whether in Primary or Junior Secondary, our programs lay the groundwork for success, shaping individuals who are prepared to make a positive impact on society. Join us as we build brighter futures together.
+                </p>
+            </div>
+        </div>
+    
     </section>
 
-<!------- Course ------->
 
-<section class="course">
-<h1>Services Offered</h1>
-<p>Kindergarten,
-    Primary and Junior Secondary:</p>
-    <div class="row">
-        <div class="course-col">
-            <h3>Kindergarten</h3>
-            <p>Early Literacy,
-                Numeracy,
-                Arts and Crafts,
-                Music and Movement,
-                Social Skills,
-                Nature and Science Exploration,
-                Physical Education.
-            </p>
-        </div>
+<section class="footer" id="contact">
+    <h1>Contact Us</h1>
+     <p>We would love to hear from you! If you have any questions, inquiries, or would like to get in touch with us, please feel free to use any of the following methods:</p>
+     <div class="social-media">
+        <a href="Tel:+254 718 953 556"><i class='bx bxs-phone-call'></i></a>
+        <a href="https://www.facebook.com/vihiga.educationcity.1?mibextid+2J9oc"><i class='bx bxl-facebook'></i></a>
+        <a href="https://twitter.com/City/Vihiga"><i class='bx bxl-twitter'></i></a>
+        <a href="https://instagram.com/Vihiga Education-City"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://wa.me/+254 704 669 599"><i class='bx bxl-whatsapp'></i></a>
+        
     </div>
-    <div class="row">
-        <div class="course-col">
-            <h3>Primary</h3>
-            <p>Language Arts,
-                Mathematics,
-                Science,
-                Social Studies,
-                Physical Education,
-                Arts and Music,
-                Foreign Languages,
-                Computer Studies.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="course-col">
-            <h3>Junior Secondary</h3>
-            <p>English Language and Literature,
-                Mathematics,
-                Sciences,
-                Social Sciences,
-                Physical Education and Health,
-                Visual and Performing Arts,
-                Technology and Design,
-                Foreign Languages.
-            </p>
-        </div>
-    </div>
+    <p>Our School Is Located,</p>
+    <address>
+        Off Majengo – Luanda Road <br>
+Address: P.O Box 33, Vihiga 50310<br>
+        Vihiga<br>
+        Phone: +254 718 953 556<br>
+        Email:  info@vihigaeducationcity.com
+    </address>
+   
+<div class="footer-iconTop">
+    <a href="#"><i class='bx bx-chevrons-up'></i></a>
+</div>
+<p id="copy"> &copy; 2023 Vihiga Education City. All rights reserved.</p>
 </section>
-
-<section class="row">
-    <div class="campus-col">
-        <img src="" alt="">
-    </div>
-
-</section>
-
-    <!----- javascript for togle menu ------->
-    <script>
-
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200";
-        }
-    </script>
+<script src="index.js"></script>
 </body>
 </html>
